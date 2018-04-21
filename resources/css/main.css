@@ -1,0 +1,102 @@
+body, html {
+    height: 100%;
+}
+.m10{
+    margin: 10px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt20{
+    margin-top: 8%;
+}
+.mr0{
+    margin-right: 0px !important;
+}
+.mr10{
+    margin-right: 10px !important;
+}
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+}
+.card{
+    margin: 50px auto;
+    text-align: center;
+}
+.p10{
+    padding: 1.4em !important;
+}
+.float-right{
+  float: center;
+}
+.center{
+    
+    float: right;
+    max-width: 35%;
+   
+}
+.text-orange{
+    font-family: 'brandon_textbold', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.28);
+    font-size: 40px;
+}
+.font-bold{
+   font-size: 1.5em;
+
+}
+.transparent{
+    opacity:0.8;
+    background:rgba(0,0,0,1);
+}
+.opaque-navbar {
+    background-color: rgba(185, 182, 182, 0.2);
+    /*== Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+    height: 60px;
+    border-color: transparent;
+    transition: background-color .5s ease 0s;
+    background:transparent;
+    }
+    
+.opaque-navbar.opaque {
+    background-color: rgb(78, 78, 78);
+    height: 60px;
+    transition: background-color .5s ease 0s;
+    border-color: transparent;
+}
+.float-right{
+    float: right;
+  }
+.float-left{
+    float: left;
+}
+.parallax {    
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ),
+    url('file:///Users/kuldeepghate/Downloads/instacart3.jpg');
+    /* The image used */
+   /* background-image: url('file:///Users/kuldeepghate/Downloads/instacart.jpg');*/
+
+    /* Full height */
+    height: 100%; 
+    
+    opacity: 1;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
