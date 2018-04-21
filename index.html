@@ -81,7 +81,7 @@
                                         <br>
                                         <div class = "form-row">
                                             <div class="col">
-                                                <input type="tel" id="phone" class="form-control input-lg" placeholder ="Phone Number" required>
+                                                <input type="tel" id="phone" class="form-control input-lg" placeholder ="Phone Number" oninput="validate()" required>
                                             </div>
                                         </div>
                                         <br>
@@ -139,5 +139,16 @@
         </div>
     </div>
 </body>
+<script>
+    var phone_in = document.getElementById("phone");
+
+    phone_in.addEventListener('keyup', function(){
+        var field = phone_in.value;
+        phone_in.value = validate(field);
+    });
+    function validate(n){
+        return n.replace(/[^0-9]+/g, '');
+    }
+</script>
 <link rel="stylesheet"  type="text/css" href="file:///Users/kuldeepghate/Coding/Shopper's%20Challenge/resources/css/main.css">
 </html>
