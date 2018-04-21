@@ -10,6 +10,13 @@ body, html {
 .mt20{
     margin-top: 8%;
 }
+.mid{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    margin-top: -50px;
+    margin-left: -50px;
+}​
 .mr0{
     margin-right: 0px !important;
 }
